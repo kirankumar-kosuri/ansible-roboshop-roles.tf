@@ -1,7 +1,15 @@
-- name: setup "{{ component }}" server
-  hosts: "{{ component }}"
-  component: local
-  become: yes
+# - name: setup "{{ component }}" server
+#   hosts: "{{ component }}"
+#   component: local
+#   become: yes
   
+#   roles:
+#   - "{{ component }}"
+
+
+- name: "setup {{ component }} server"
+  hosts: "{{ component }}"
+  connection: local
+  become: yes
   roles:
   - "{{ component }}"
