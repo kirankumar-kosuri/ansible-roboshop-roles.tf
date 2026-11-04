@@ -22,6 +22,7 @@
   ansible.builtin.package:
     name: mongodb-mongosh
     state: present
+
 - name: debug
   ansible.builtin.debug:
     msg: echo "{{ MONGODB_HOST }}"
