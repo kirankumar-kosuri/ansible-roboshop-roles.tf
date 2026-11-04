@@ -5,7 +5,7 @@
   tags:
   - deployment
 
-- name: nodejs setup
+- name: catalogue setup
   #ansible.builtin.import_role:
   ansible.builtin.include_role:
     name: common
