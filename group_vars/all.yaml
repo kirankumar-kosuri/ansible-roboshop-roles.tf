@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.daws86s.blog
-REDIS_HOST: redis.daws86s.blog
-CATALOGUE_HOST: catalogue.daws86s.blog
-CART_HOST: cart.daws86s.blog
-USER_HOST: user.daws86s.blog
-RABBITMQ_HOST: rabbitmq.daws86s.blog
-MYSQL_HOST: mysql-{{ env }}.daws86s.blog
-SHIPPING_HOST: shipping.daws86s.blog
-PAYMENT_HOST: payment.daws86s.blog
+MONGODB_HOST: mongodb-{{ env }}.engg.site
+REDIS_HOST: redis-{{ env }}.engg.site
+CATALOGUE_HOST: catalogue-{{ env }}{{ env }}.engg.site
+CART_HOST: cart-{{ env }}.engg.site
+USER_HOST: user-{{ env }}.engg.site
+RABBITMQ_HOST: rabbitmq-{{ env }}.engg.site
+MYSQL_HOST: mysql-{{ env }}{{ env }}.engg.site
+SHIPPING_HOST: shipping-{{ env }}.engg.site
+PAYMENT_HOST: payment-{{ env }}.engg.site
