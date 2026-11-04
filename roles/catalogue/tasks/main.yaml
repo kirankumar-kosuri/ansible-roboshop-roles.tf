@@ -27,7 +27,7 @@
     msg: echo "{{ MONGODB_HOST }}"
 
 - name: connnect to mongodb catalogue
-  ansible.builtin.command: mongosh {{ MONGODB_HOST }} --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
+  ansible.builtin.command: mongosh --host {{ MONGODB_HOST }} --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
   register: catalogue_output
 
 - name: load products into mongodb

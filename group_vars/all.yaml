@@ -1,4 +1,4 @@
-MONGODB_HOST: mongodb-{{ env }}.engg.site
+MONGODB_HOST: mongodb-dev.engg.site
 REDIS_HOST: redis-{{ env }}.engg.site
 CATALOGUE_HOST: catalogue-{{ env }}.engg.site
 CART_HOST: cart-{{ env }}.engg.site
