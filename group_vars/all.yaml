@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.engg.site
 REDIS_HOST: redis-{{ env }}.engg.site
-CATALOGUE_HOST: catalogue-{{ env }}{{ env }}.engg.site
+CATALOGUE_HOST: catalogue-{{ env }}.engg.site
 CART_HOST: cart-{{ env }}.engg.site
 USER_HOST: user-{{ env }}.engg.site
 RABBITMQ_HOST: rabbitmq-{{ env }}.engg.site
-MYSQL_HOST: mysql-{{ env }}{{ env }}.engg.site
+MYSQL_HOST: mysql-{{ env }}.engg.site
 SHIPPING_HOST: shipping-{{ env }}.engg.site
 PAYMENT_HOST: payment-{{ env }}.engg.site
